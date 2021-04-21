@@ -9,8 +9,7 @@ function getGitRepo(projectName) {
   const spinner = ora('正在从gitlab下载template...\n')
   spinner.start()
   // 仓库地址  项目path  项目名
-const { repositoryURL, rootPath } = require("../utils/config")
-console.log(rootPath, 2222222222)
+  const { repositoryURL, rootPath } = require("../utils/config")
   return download({repositoryURL, rootPath, projectName})
   .then(() => {
     spinner.color = 'green';
