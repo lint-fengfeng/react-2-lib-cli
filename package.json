@@ -1,0 +1,25 @@
+{
+  "name": "xdfmini",
+  "version": "0.1.1",
+  "description": "\"xdf mini react component lib\"",
+  "scripts": {
+    "start": "node ./script/project-init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xdfmini": "./script/project.js",
+    "xdfmini-init": "./script/project-init.js"
+  },
+  "author": "chengxuefeng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child_process": "^1.0.2",
+    "commander": "^7.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^16.2.0"
+  }
+}
