@@ -27,9 +27,9 @@ program
       // 2. clone代码
       await getGitRepo(projectName)
       // 3. 修改package模板
-      await infile(packagePath, params)
-      // 4. 装依赖
-      const result = await runInstall(projectPath)
+      // await infile(packagePath, params)
+      // // 4. 装依赖
+      // const result = await runInstall(projectPath)
     
   })
   .parse(process.argv)

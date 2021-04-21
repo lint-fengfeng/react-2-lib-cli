@@ -6,9 +6,11 @@ const { repositoryURL, rootPath } = require("../utils/config")
 
 function getGitRepo(projectName) {
   const download = promisify(cloneGit)
-  const spinner = ora('正在从gitlab下载template...')
+  const spinner = ora('正在从gitlab下载template...\n')
   spinner.start()
   // 仓库地址  项目path  项目名
+const { repositoryURL, rootPath } = require("../utils/config")
+console.log(rootPath, 2222222222)
   return download({repositoryURL, rootPath, projectName})
   .then(() => {
     spinner.color = 'green';
