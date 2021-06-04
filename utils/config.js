@@ -1,7 +1,7 @@
 const path = require("path")
 
 module.exports = {
-  repositoryURL: 'git@gitlab.staff.xdf.cn:seal/js/xdf-mini-lib-template.git',
+  repositoryURL: 'git@github.com:lint-fengfeng/react-lib-my.git',
   rootPath: process.cwd()
   // rootPath: path.join(__dirname, '../')
 }
