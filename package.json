@@ -1,6 +1,6 @@
 {
   "name": "xdfmini",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "\"xdf mini react component lib\"",
   "scripts": {
     "start": "node ./script/project-init.js",
@@ -21,5 +21,9 @@
     "ora": "^5.4.0",
     "shelljs": "^0.8.4",
     "yargs": "^16.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lint-fengfeng/react-2-lib-cli.git"
   }
 }
