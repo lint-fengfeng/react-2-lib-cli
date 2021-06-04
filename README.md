@@ -4,12 +4,11 @@ npm i -g xdfmini
 ```
 ## 2. 用处
 
-- 一键生成可直接发布的组件库（详见组件库文档[https://uwiki.yuque.com/ucanseal/rxxzb6/dxsrba](https://uwiki.yuque.com/ucanseal/rxxzb6/dxsrba)）
 - 替换package名称，author名，description
 - 安装依赖
 - 进度条、变色、询问
 ## 3. 相关指令
-
+  
 - 查看指令
 ```bash
 xdfmini 
@@ -23,6 +22,7 @@ xdfmini 
 ```
 
 - 查看版本
+  组件库： https://github.com/lint-fengfeng/react-lib-my
 ```bash
 xdfmini -v
 ```

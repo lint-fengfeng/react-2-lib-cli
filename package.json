@@ -1,6 +1,6 @@
 {
   "name": "xdfmini",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "\"xdf mini react component lib\"",
   "scripts": {
     "start": "node ./script/project-init.js",
